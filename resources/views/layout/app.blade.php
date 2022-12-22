@@ -1,28 +1,36 @@
-<!DOCTYPE html>
-<html lang="es">
-    <!-- head -->
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang=""> <!--<![endif]-->
+
 @include('layout.head')
+
 <body>
-	<!-- SideBar -->
-	@include('layout.sidebar')
+    <!-- sidebar -->
+   @include('layout.sidebar')
 
-	<!-- Content page-->
-	<section class="full-box dashboard-contentPage">
+    <div id="right-panel" class="right-panel">
 
-		<!-- NavBar -->
-		@include('layout.navbar')
+        <!-- navbar-->
+        @include('layout.navbar')
 
-		<!-- Content page -->
-		@yield('content')
-	</section>
+        @yield('content')
 
-	<!-- Notifications area -->
-	@include('layout.notifications')
+        <div class="clearfix"></div>
 
-	<!-- Dialog help -->
-	@include('layout.dialog')
+       <!-- footer -->
+       @include('layout.footer')
 
-	<!--====== Scripts -->
-	@include('layout.script')
+
+    </div><!-- /#right-panel -->
+
+    <!-- Right Panel -->
+
+    <!-- Scripts -->
+    @include('layout.script')
+
 </body>
+
 </html>

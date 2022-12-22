@@ -2,132 +2,213 @@
 @section('title', 'Bienvenido')
 
 @section('content')
-<div class="container-fluid">
-			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Users <small>Admin</small></h1>
-			</div>
-			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas reiciendis tempora voluptatum eius porro ipsa quae voluptates officiis sapiente sunt dolorem, velit quos a qui nobis sed, dignissimos possimus!</p>
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12">
-					<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-					  	<li class="active"><a href="#new" data-toggle="tab">New</a></li>
-					  	<li><a href="#list" data-toggle="tab">List</a></li>
-					</ul>
-					<div id="myTabContent" class="tab-content">
-						<div class="tab-pane fade active in" id="new">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-xs-12 col-md-10 col-md-offset-1">
-									    <form action="">
-									    	<div class="form-group label-floating">
-											  <label class="control-label">Name</label>
-											  <input class="form-control" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Last Name</label>
-											  <input class="form-control" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Address</label>
-											  <textarea class="form-control"></textarea>
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Email</label>
-											  <input class="form-control" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Phone</label>
-											  <input class="form-control" type="text">
-											</div>
-											<div class="form-group">
-										      <label class="control-label">Photo</label>
-										      <div>
-										        <input type="text" readonly="" class="form-control" placeholder="Browse...">
-										        <input type="file" >
-										      </div>
-										    </div>
-										    <p class="text-center">
-										    	<button href="#!" class="btn btn-info btn-raised btn-sm"><i class="zmdi zmdi-floppy"></i> Save</button>
-										    </p>
-									    </form>
-									</div>
-								</div>
-							</div>
-						</div>
-					  	<div class="tab-pane fade" id="list">
-							<div class="table-responsive">
-								<table class="table table-hover text-center">
-									<thead>
-										<tr>
-											<th class="text-center">#</th>
-											<th class="text-center">Name</th>
-											<th class="text-center">Last Name</th>
-											<th class="text-center">Address</th>
-											<th class="text-center">Email</th>
-											<th class="text-center">Phone</th>
-											<th class="text-center">Update</th>
-											<th class="text-center">Delete</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>1</td>
-											<td>Carlos</td>
-											<td>Alfaro</td>
-											<td>El Salvador</td>
-											<td>carlos@gmail.com</td>
-											<td>+50312345678</td>
-											<td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-											<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-										</tr>
-										<tr>
-											<td>2</td>
-											<td>Alicia</td>
-											<td>Melendez</td>
-											<td>El Salvador</td>
-											<td>alicia@gmail.com</td>
-											<td>+50312345678</td>
-											<td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-											<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-										</tr>
-										<tr>
-											<td>3</td>
-											<td>Sarai</td>
-											<td>Lopez</td>
-											<td>El Salvador</td>
-											<td>sarai@gmail.com</td>
-											<td>+50312345678</td>
-											<td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-											<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-										</tr>
-										<tr>
-											<td>4</td>
-											<td>Alba</td>
-											<td>Bonilla</td>
-											<td>El Salvador</td>
-											<td>alba@gmail.com</td>
-											<td>+50312345678</td>
-											<td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-											<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-										</tr>
-									</tbody>
-								</table>
-								<ul class="pagination pagination-sm">
-								  	<li class="disabled"><a href="#!">«</a></li>
-								  	<li class="active"><a href="#!">1</a></li>
-								  	<li><a href="#!">2</a></li>
-								  	<li><a href="#!">3</a></li>
-								  	<li><a href="#!">4</a></li>
-								  	<li><a href="#!">5</a></li>
-								  	<li><a href="#!">»</a></li>
-								</ul>
-							</div>
-					  	</div>
-					</div>
-				</div>
-			</div>
-		</div>
+
+		<div class="breadcrumbs">
+            <div class="breadcrumbs-inner">
+                <div class="row m-0">
+                    <div class="col-sm-4">
+                        <div class="page-header float-left">
+                            <div class="page-title">
+                                <h1>Dashboard</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="page-header float-right">
+                            <div class="page-title">
+                                <ol class="breadcrumb text-right">
+                                    <li><a href="#">Dashboard</a></li>
+                                    <li><a href="#">Forms</a></li>
+                                    <li class="active">Advanced</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="animated fadeIn">
+
+                <div class="row">
+
+                    <div class="col-xs-6 col-sm-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong>Masked Input</strong> <small> Small Text Mask</small>
+                            </div>
+                            <div class="card-body card-block">
+                                <div class="form-group">
+                                    <label class=" form-control-label">Date input</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                                        <input class="form-control">
+                                    </div>
+                                    <small class="form-text text-muted">ex. 99/99/9999</small>
+                                </div>
+                                <div class="form-group">
+                                    <label class=" form-control-label">Phone input</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-phone"></i></div>
+                                        <input class="form-control">
+                                    </div>
+                                    <small class="form-text text-muted">ex. (999) 999-9999</small>
+                                </div>
+                                <div class="form-group">
+                                    <label class=" form-control-label">Taxpayer Identification Numbers</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-usd"></i></div>
+                                        <input class="form-control">
+                                    </div>
+                                    <small class="form-text text-muted">ex. 99-9999999</small>
+                                </div>
+                                <div class="form-group">
+                                    <label class=" form-control-label">Social Security Number</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-male"></i></div>
+                                        <input class="form-control">
+                                    </div>
+                                    <small class="form-text text-muted">ex. 999-99-9999</small>
+                                </div>
+                                <div class="form-group">
+                                    <label class=" form-control-label">Eye Script</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-asterisk"></i></div>
+                                        <input class="form-control">
+                                    </div>
+                                    <small class="form-text text-muted">ex. ~9.99 ~9.99 999</small>
+                                </div>
+                                <div class="form-group">
+                                    <label class=" form-control-label">Credit Card Number</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-credit-card"></i></div>
+                                        <input class="form-control">
+                                    </div>
+                                    <small class="form-text text-muted">ex. 9999 9999 9999 9999</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong class="card-title">Standard Select</strong>
+                            </div>
+                            <div class="card-body">
+
+                                <select data-placeholder="Choose a Country..." class="standardSelect" tabindex="1">
+                                    <option value="" label="default"></option>
+                                    <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                    <option value="Aland Islands">Aland Islands</option>
+                                    <option value="Albania">Albania</option>
+                                    <option value="Algeria">Algeria</option>
+                                    <option value="American Samoa">American Samoa</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Anguilla">Anguilla</option>
+                                    <option value="Antarctica">Antarctica</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <strong class="card-title">Multi Select</strong>
+                            </div>
+                            <div class="card-body">
+
+                                <select data-placeholder="Choose a country..." multiple class="standardSelect">
+                                    <option value="" label="default"></option>
+                                    <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                    <option value="Aland Islands">Aland Islands</option>
+                                    <option value="Albania">Albania</option>
+                                    <option value="Algeria">Algeria</option>
+                                    <option value="American Samoa">American Samoa</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Anguilla">Anguilla</option>
+                                    <option value="Antarctica">Antarctica</option>
+                                </select>
+
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <strong class="card-title">Multi Select with Groups</strong>
+                            </div>
+                            <div class="card-body">
+
+                                <select data-placeholder="Your Favorite Football Team" multiple class="standardSelect"
+                                    tabindex="5">
+                                    <option value="" label="default"></option>
+                                    <optgroup label="NFC EAST">
+                                        <option>Dallas Cowboys</option>
+                                        <option>New York Giants</option>
+                                        <option>Philadelphia Eagles</option>
+                                        <option>Washington Redskins</option>
+                                    </optgroup>
+                                    <optgroup label="NFC NORTH">
+                                        <option>Chicago Bears</option>
+                                        <option>Detroit Lions</option>
+                                        <option>Green Bay Packers</option>
+                                        <option>Minnesota Vikings</option>
+                                    </optgroup>
+                                    <optgroup label="NFC SOUTH">
+                                        <option>Atlanta Falcons</option>
+                                        <option>Carolina Panthers</option>
+                                        <option>New Orleans Saints</option>
+                                        <option>Tampa Bay Buccaneers</option>
+                                    </optgroup>
+                                    <optgroup label="NFC WEST">
+                                        <option>Arizona Cardinals</option>
+                                        <option>St. Louis Rams</option>
+                                        <option>San Francisco 49ers</option>
+                                        <option>Seattle Seahawks</option>
+                                    </optgroup>
+                                    <optgroup label="AFC EAST">
+                                        <option>Buffalo Bills</option>
+                                        <option>Miami Dolphins</option>
+                                        <option>New England Patriots</option>
+                                        <option>New York Jets</option>
+                                    </optgroup>
+                                    <optgroup label="AFC NORTH">
+                                        <option>Baltimore Ravens</option>
+                                        <option>Cincinnati Bengals</option>
+                                        <option>Cleveland Browns</option>
+                                        <option>Pittsburgh Steelers</option>
+                                    </optgroup>
+                                    <optgroup label="AFC SOUTH">
+                                        <option>Houston Texans</option>
+                                        <option>Indianapolis Colts</option>
+                                        <option>Jacksonville Jaguars</option>
+                                        <option>Tennessee Titans</option>
+                                    </optgroup>
+                                    <optgroup label="AFC WEST">
+                                        <option>Denver Broncos</option>
+                                        <option>Kansas City Chiefs</option>
+                                        <option>Oakland Raiders</option>
+                                        <option>San Diego Chargers</option>
+                                    </optgroup>
+                                </select>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div><!-- .animated -->
+        </div>
 
 @endsection
