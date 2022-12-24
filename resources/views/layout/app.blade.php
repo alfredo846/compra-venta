@@ -19,7 +19,7 @@
 
         @yield('content')
 
-        <div class="clearfix"></div>
+        <!-- <div class="clearfix"></div> -->
 
        <!-- footer -->
        <!-- @include('layout.footer') -->

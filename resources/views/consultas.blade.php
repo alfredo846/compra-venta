@@ -27,27 +27,214 @@
                             <div class="card-header">
                             <strong class="text-light">&nbsp;&nbsp;<h5>Productos</h5>  &nbsp;&nbsp;&nbsp; </strong>
                             </div>
+                            
                             <div class="card-body">
-                               <button type="button" class="btn btn-primary btn-sm float-right"><i class="fa fa-plus"></i>&nbsp;&nbsp; Agregar Nuevo &nbsp;&nbsp;</button>
-                               <p class="float-right">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                 <button type="button" class="btn btn-primary btn-sm float-right"><i class="fa fa-plus"></i>&nbsp;&nbsp; Inserción Excel Productos &nbsp;&nbsp;</button>
+                                 <button type="button" class="btn btn-link float-right"></button>
+                                 <button type="button" class="btn btn-primary btn-sm float-right"><i class="fa fa-plus"></i>&nbsp;&nbsp; Inserción Manual Productos &nbsp;&nbsp;</button>
 
-                                <table id="productos" class="table table-striped table-bordered display ">
+                              <table id="productos" class="display" style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th>Nombre</th>
-                                            <th>Descrción</th>
-                                            <th>EstadoEstadoEstado</th>
-                                            <th>Opciones</th>
+                                           <th>Nombre</th>
+                                            <th>Descripción</th>
+                                            <th>Código</th>
+                                            <th>Categoría</th>
+                                            <th>Medida</th>
+                                            <th>Proveedor</th>
+                                            <th>Imagen</th>
+                                            <th>Estado</th>
+                                            <th>Acciones</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Tiger Nixzzzzon</td>
-                                            <td>Barcel, Danone</td>
-                                            <td>aaaaaaaaaaa</td>
-                                            <td>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
+                                                <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
+                                                <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
+                                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
+                                                <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
+                                                <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
+                                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
+                                                <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
+                                                <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
+                                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
+                                                <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
+                                                <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
+                                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
+                                                <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
+                                                <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
+                                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
+                                                <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
+                                                <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
+                                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
+                                                <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
+                                                <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
+                                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
+                                                <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
+                                                <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
+                                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
+                                                <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
+                                                <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
+                                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
+                                                <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
+                                                <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
+                                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
+                                                <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
+                                                <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
+                                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="35%">Papas sabritas sal 240g
+                                            </td>
+                                            <td>Papas Fritas con Sal</td>
+                                            <td>75010111014547</td>
+                                            <td>Botanas</td>
+                                            <td>1 unidad</td>
+                                            <td>Sabritas</td>
+                                            <td>imagen</td>
+                                            <td>Activo</td>
+                                            <td width=15%;>
                                                 <button type="button" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></button>
                                                 <button type="button" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button>
                                                 <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
@@ -80,13 +267,23 @@
 
 
      <script type="text/javascript">
-         $(document).ready(function() {
-             $('#productos').DataTable({
-            language:{
+        //  $(document).ready(function() {
+        //      $('#productos').DataTable({
+        //     language:{
+        //         url:"{{ asset('assets/js/spanish.json') }}"
+        //     }
+        // });
+        //     } );
+
+        $(document).ready(function () {
+    $('#productos').DataTable({
+        scrollY: 300,
+        scrollX: true,
+        language:{
                 url:"{{ asset('assets/js/spanish.json') }}"
             }
         });
-            } );
+        });
      </script>
 
     

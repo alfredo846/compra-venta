@@ -563,7 +563,7 @@ aside.left-panel {
   height: 100vh;
   padding: 0;
   vertical-align: top;
-  width: 280px;
+  width: 229px;
   -webkit-box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
           box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
   position: fixed;
@@ -827,7 +827,7 @@ aside.left-panel {
 /* Right panel */
 .right-panel {
   background: #f1f2f7;
-  margin-left: 280px;
+  margin-left: 229px;
   margin-top: 55px; }
   .right-panel .top-left {
     width: 350px;
@@ -871,7 +871,7 @@ aside.left-panel {
   padding: 0 30px;
   height: 55px;
   position: fixed;
-  left: 280px;
+  left: 229px;
   left: 0;
   right: 0;
   top: 0;
@@ -1424,7 +1424,7 @@ header .form-inline {
   fill: #ffa726 !important; }
 
 #area_chart {
-  max-height: 280px; }
+  max-height: 229px; }
 
 #flotLine5 {
   height: 50px; }
@@ -2204,8 +2204,8 @@ footer.site-footer {
     font-size: 12px; } }
 @media (max-width: 1024px) {
   .open aside.left-panel {
-    width: 280px;
-    max-width: 280px; }
+    width: 229px;
+    max-width: 229px; }
 
   aside.left-panel:hover {
     overflow-x: inherit; }
@@ -2294,8 +2294,8 @@ footer.site-footer {
     aside.left-panel .menutoggle {
       display: none; }
     aside.left-panel.open-menu {
-      max-width: 280px;
-      width: 280px; }
+      max-width: 229px;
+      width: 229px; }
       aside.left-panel.open-menu .navbar .navbar-nav li > a {
         width: 100%;
         max-width: 100%;
