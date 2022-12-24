@@ -22,7 +22,7 @@
         <div class="clearfix"></div>
 
        <!-- footer -->
-       @include('layout.footer')
+       <!-- @include('layout.footer') -->
 
 
     </div><!-- /#right-panel -->
